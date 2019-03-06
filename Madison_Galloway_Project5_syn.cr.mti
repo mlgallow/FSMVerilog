@@ -1,0 +1,15 @@
+{C:/Users/litef/Documents/School Work/Fall 2018/System Snth/Project5/Madison_Galloway_Project5_tb.v} {1 {vlog -work work_syn -stats=none {C:/Users/litef/Documents/School Work/Fall 2018/System Snth/Project5/Madison_Galloway_Project5_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Madison_Galloway_Project5_tb
+
+Top level modules:
+	Madison_Galloway_Project5_tb
+
+} {} {}} {C:/Users/litef/Documents/School Work/Fall 2018/System Snth/Project5/Madison_Galloway_Project_s.v} {1 {vlog -work work_syn -stats=none {C:/Users/litef/Documents/School Work/Fall 2018/System Snth/Project5/Madison_Galloway_Project_s.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Madison_Galloway_Project5
+
+Top level modules:
+	Madison_Galloway_Project5
+
+} {} {}}

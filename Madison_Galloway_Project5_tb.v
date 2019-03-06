@@ -1,0 +1,23 @@
+`timescale 10 ns/ 1 ps
+module Madison_Galloway_Project5_tb;
+
+wire R,Y,G;
+reg clk, reset, start;
+
+Madison_Galloway_Project5 dut(.R(R),.Y(Y),.G(G),.clk(clk),.reset(reset),.start(start));
+
+initial begin
+//initiate the reset as 0 and then after
+//20 set to 1 for a time to show that the program will stay at red
+	clk = 0;	
+	start = 0;
+	reset = 0;
+	reset = 1; #20
+	reset = 0; #10
+//initiate clock and keep it running
+//forever and changes every 5
+	start = 1;
+
+end
+	always #5 clk = ~clk;
+endmodule
